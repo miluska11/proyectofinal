@@ -1,22 +1,31 @@
-
 document.getElementById("signup-form").addEventListener("submit", function(event) {
-    let campoEmail = document.getElementById("email").value.trim(); // Elimina espacios en blanco
-    let campoPassword = document.getElementById("password").value.trim();
+ 
+event.preventDefault();
+let formData = new FormData(this);
 
-    if (campoEmail === '' || campoPassword === '') {
-        event.preventDefault(); // Evita el envío del formulario
+   
+if (formData.get("email").trim() === '' || formData.get("password").trim() === '') {
+        
+    let errorMessage = document.getElementById("error-message");
+    errorMessage.textContent = "Por favor, complete todos los campos.";
 
-        // Muestra un mensaje de error en un elemento HTML con el id "error-message"
-        let errorMessage = document.getElementById("error-message");
-        errorMessage.textContent = "Por favor, complete todos los campos.";
-
-        // También puedes agregar estilos CSS para resaltar el mensaje de error
-        errorMessage.style.color = "red";
-    }
+ 
+    errorMessage.style.color = "red";
+} else {
+    
+    this.submit();
+}
 });
+
+
+
+
+
+
 
 
 //AUN FALTA NO ESTA FUNCIONANADO AUN FALTA INCRETAR ...
 
 
 
+ 
