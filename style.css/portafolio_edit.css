@@ -1,0 +1,53 @@
+.user-edit-info {
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    width: 645.911px;
+    height: 727.563px;
+    flex-shrink: 0;
+  }
+  .container-user {
+    padding-top: 30px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+  }
+  .container-change-info > :first-child {
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+  }
+  
+  .bio {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bio-input {
+    border-radius: 12px;
+    border: 1px solid #828282;
+    width: 416.932px;
+    height: 62px;
+    flex-shrink: 0;
+  }
+  .back-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 650px;
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+  .photo1{
+    margin-right: 300px
+  }
+  .hidden {
+    display: none;
+  }
+  

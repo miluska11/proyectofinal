@@ -1,0 +1,64 @@
+.container-profile {
+  width: 700.384px;
+}
+
+.container-profile > :first-child {
+  color: #000;
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.84px;
+}
+
+.container-profile > :last-child {
+  color: #828282;
+  font-family: Noto Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.455px;
+}
+
+.contenedor-edit {
+  padding-top: 25px;
+}
+
+.edit-info {
+  color: #828282;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  width: 95.343px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #828282;
+}
+
+.photo {
+  height: 80px;
+}
+
+.con-photo {
+  color: #bdbdbd;
+  font-family: Noto Sans;
+  font-style: normal;
+   gap: 120px;
+  display: flex;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+

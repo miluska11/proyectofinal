@@ -1,0 +1,205 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  .textual > :first-child {
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.26px;
+  }
+  .textual > :last-child {
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.63px;
+  }
+  .informacion{
+     padding: 20px; 
+     border-radius: 8px;
+    
+  
+      }
+    
+    .contenedor_editar {
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal; 
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+   width: 700.384px;
+   padding-left: 30px;
+  }
+  .contenedor_editar > :last-child {
+    
+    font-family: Noto Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.455px;
+   
+  }
+  
+  .editar{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 35px;
+  
+   
+  }
+    .editar-informacion{
+      
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    width: 95.343px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #828282;
+   
+  
+   
+    }
+    .contexto{
+      display: flex;
+    border: solid 1px #e0e0e0;
+    width: 750px;
+    height: 150px;
+    }
+  .con-photo{
+     
+    font-family: Noto Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.455px;
+    gap: 120px;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 15px;
+  }
+  
+  .foto{
+    display: flex;
+    border: solid 1px #e0e0e0;
+    width: 750px;
+    height: 90px; 
+  }
+  
+  .con-photo >:first-child {
+    padding-top: 10px;
+  }
+  .nombre{
+  
+    display: flex;
+    border: solid 1px #e0e0e0;
+    width: 750px;
+    height: 90px
+  }
+  
+  
+  .con-nombre{
+      font-family: Noto Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.455px;
+    gap: 120px;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 15px;
+  }
+  .con-nombre >:first-child {
+    padding-top: 10px;
+  }
+  
+  .biografia {
+      display: flex;
+    border: solid 1px #e0e0e0;
+    width: 750px;
+    height: 90px
+  }
+  .con-bio{
+      font-family: Noto Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.455px;
+    gap: 120px;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 15px;
+  }
+  .telefono{
+      display: flex;
+    border: solid 1px #e0e0e0;
+    width: 750px;
+    height: 90px
+  }
+  .con-phone{
+      font-family: Noto Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.455px;
+    gap: 120px;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 15px;
+  }
+  .email{
+      display: flex;
+    border: solid 1px #e0e0e0;
+    width: 750px;
+    height: 90px
+  }
+  .con-mail{
+      font-family: Noto Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.455px;
+    gap: 120px;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 15px;
+  }
+  
+  
+  .password{
+      display: flex;
+    border: solid 1px #e0e0e0;
+    width: 750px;
+    height: 90px
+  }
+  .con-pasword{
+      font-family: Noto Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.455px;
+    gap: 120px;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 15px;
+                  }

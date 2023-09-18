@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,600;1,400&family=Roboto+Condensed&display=swap');
+
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 70px;
+}
+
+#bran{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#brand {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+#brand1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#main-title {
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+#sub-title {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333333;
+}
+
+.form{
+    margin: 30px 0 0 0;
+}
+
+.form label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 0 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+   
+}
+.form label input{
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.button {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 108%;
+    background-color: #007bff;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    border-radius: 8px;
+    background: var(--blue-1, #2F80ED);
+}
+button:hover {
+    background-color: #0056b3;
+}
+#parrafo {
+    margin: 15px 0;
+    margin-top: 20px;
+    text-align: center;
+    color: #828282;
+    font-size: 13px;
+}
+
+.icons{
+    margin: 15px 0;
+    text-align: center;
+}
+.icons i {
+    border-radius: 80%;
+    padding: 15px;
+    cursor: pointer;
+    border: solid 1px #888;
+    margin: 0 4px ;
+    transition: background-color 0.3s ease;
+}
+
+.icons i:hover {
+    background-color: rgb(78, 106, 123);
+    color: #fff;
+}
+.modid{
+    text-align: center;
+    color: #828282
+}
+.imagen{
+    width: 100px;
+}
+
+
+.modif{
+    text-align: center;
+    color: #828282
+}
